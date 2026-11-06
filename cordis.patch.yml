@@ -1,0 +1,8 @@
+# dsh-work-progress —— 插件自带的 bundle patch
+# profile 的 dsh.profile.bundles 里列出包名即生效；也可以直接在 profile 的
+# cordis.patch.yml 里 insert 同一行（本机就是这种装法，避免重启才能加载）。
+
+- insert:
+    - id: work-progress
+      name: dsh-work-progress
+      config: {}
